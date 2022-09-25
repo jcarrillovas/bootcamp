@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+}
+ul {
+  margin: 0;
+}
+li {
+  display: inline-block;
+}
+#menu {
+  display: flex;
+  height: 40px;
+  background-color: rgba(221, 64, 16, 0.856);
+  justify-content: flex-end;
+  flex-flow: row wrap;
+}
+#menu a:hover {
+  background-color: rgb(24, 22, 4);
+}
+#menu a {
+  color: aliceblue;
+  text-decoration: none;
+  display: block;
+  padding: 11px;
+}
+#header {
+  height: 300px;
+  background-color: rgb(120, 199, 199);
+  background-image: url(https://3.bp.blogspot.com/-GSe9jHBTR84/XF42W28ZlYI/AAAAAAAABLA/PXpcgTTVBHYqDSJE_x3zq_Q_C_4_r3UFQCLcBGAs/s1600/internet.png);
+  background-position: center;
+  background-size: auto;
+}
+#texto {
+  color: darkcyan;
+  font-size: 16px;
+  font-family: "Rubik Dirt";
+  height: 80%;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+}
+#main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#sidebar {
+  height: 100%;
+  width: 15%;
+  background-color: cadetblue;
+}
+#article {
+  height: 100%;
+  width: 100%;
+}
+#banner1 {
+  height: 100%;
+  width: 100%;
+}
+table,
+th,
+td {
+  border: 2px solid salmon;
+  height: 100%;
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+  height: 100%;
+}
+th {
+  height: 10%;
+}
+td {
+  height: 100%;
+  width: 100%;
+}
+
+#footer {
+  height: 100%;
+  width: 100%;
+  background-color: darkgray;
+  color: black;
+  text-align: center;
+  line-height: 150px;
+}

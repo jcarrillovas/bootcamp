@@ -1,0 +1,63 @@
+/*Esto cambia toda la pagina*/
+body {
+  margin: 0;
+}
+ul {
+  margin: 0;
+}
+#header {
+  height: 200px;
+  background-color: rgb(13, 163, 151);
+  /* background-image: url(https://i.pinimg.com/originals/f2/b2/2c/f2b22cf0f260a007a4c1edcce26934d9.gif); */
+  color: rgb(182, 13, 92);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  line-height: 200px;
+}
+#menu {
+  height: 100px;
+  background-color: darkcyan;
+  color: rgb(252, 250, 251);
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  line-height: 100px;
+}
+#main {
+  height: 100vh;
+  /* background-color: rgb(255, 255, 255); */
+  display: flex;
+  flex-direction: row;
+}
+#footer {
+  height: 150px;
+  background-color: rgb(212, 160, 91);
+  color: black;
+  text-align: center;
+  line-height: 150px;
+}
+li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+}
+#sidebar {
+  height: 100%;
+  width: 20%;
+  background-color: blueviolet;
+}
+
+#imagen {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  background-image: url(https://i.pinimg.com/originals/f2/b2/2c/f2b22cf0f260a007a4c1edcce26934d9.gif);
+  background-size: cover;
+}
+#article {
+  height: 100%;
+  width: 20%;
+  background-color: cornflowerblue;
+}
