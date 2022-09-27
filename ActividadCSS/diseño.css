@@ -52,8 +52,44 @@ li {
 #sidebar {
   height: 100%;
   width: 15%;
-  background-color: cadetblue;
 }
+#menuside {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+#menuside ul {
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: rgba(221, 64, 16, 0.856);
+  display: flex;
+  flex-direction: column;
+}
+#menuside li a {
+  width: 85%;
+  color: aliceblue;
+  display: block;
+  padding: 1em 1em 10.3em 1em;
+  text-decoration: none;
+  border-style: solid;
+  justify-content: center;
+  text-align: center;
+}
+#menuside li a:hover {
+  background: rgb(28, 10, 189);
+  color: white;
+}
+/* #menuside a:hover {
+  background-color: rgb(28, 10, 189);
+}
+#menuside a {
+  color: aliceblue;
+  text-decoration: none;
+  display: block;
+  padding: 11px;
+} */
 #article {
   height: 100%;
   width: 100%;
